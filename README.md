@@ -2,7 +2,26 @@
 
 A Nano Banana Hackathon project that analyzes GitHub user profiles and generates artistic portrait prompts based on coding style, contributions, and technical focus areas.
 
+DEMO <https://youtu.be/8w5G9O50pSo>
+
 ![alt text](images/20250907_215804_fa5e4303_phunterlau_character_fusion_0.png)
+
+## ✨ Project Highlights for Kaggle Judges
+
+This project is designed to excel across the core judging criteria by deeply integrating the Gemini 2.5 Flash Image model in a novel and impactful way.
+
+### Innovation and "Wow" Factor
+The "wow" factor lies in turning an abstract concept—a developer's coding identity—into a tangible, personalized piece of art. We go beyond simple statistics by using Gemini to interpret nuanced data like commit styles, contribution patterns, and code focus. The true innovation is our **image-to-image "Remix Mode,"** where Gemini fuses a developer's actual photo with their AI-analyzed professional archetype. This creates a hyper-personalized avatar that wasn't possible before, blending reality with a symbolic representation of their digital craft.
+
+### Technical Execution and Functionality
+The application is fully functional and demonstrates a sophisticated use of the Gemini API.
+- **Advanced Analysis:** Gemini analyzes READMEs to classify a repository's domain (AI/ML, Frontend, etc.).
+- **Creative Prompt Engineering:** Gemini enriches prompts with symbolic objects (e.g., a coffee mug for Java) and thematic styles (e.g., cyberpunk for backend).
+- **Multi-Modal Fusion:** The image-to-image pipeline effectively uses Gemini's ability to merge a user's photo with a complex, context-aware text prompt, showcasing a powerful fusion capability.
+
+### Potential Impact and Utility
+This project offers a fun and engaging tool for the developer community. It provides a unique way for developers to visualize and share their professional identity, making it a cool and practical tool for social media profiles, personal websites, and team pages. It solves the creative challenge of self-representation in a digital world, offering a more meaningful alternative to generic avatars.
+
 ## 🎯 Features
 
 - **Multi-dimensional GitHub Analysis**: Language distribution, domain focus, contribution patterns, and commit timing
