@@ -98,9 +98,6 @@ The system maps technical attributes to artistic elements:
 ├── user_profile/           # Cached JSON profiles of analyzed users
 ├── profile_pictures/       # Downloaded GitHub profile pictures
 │
-├── demo_script.md          # Narrative script for video demo
-├── kaggle_writeup.md       # Writeup for Kaggle submission
-├── BUILD_PLAN.md           # Original project build plan
 └── README.md               # This file
 ```
 
