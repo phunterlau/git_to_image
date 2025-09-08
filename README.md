@@ -28,35 +28,28 @@ This project offers a fun and engaging tool for the developer community. It prov
 - **AI-Powered Domain Classification**: Uses Google Gemini to analyze repository content
 - **Artistic Style Mapping**: Converts technical attributes to visual elements (characters, styles, backgrounds)
 - **Prompt Generation**: Creates detailed image generation prompts with variations
-- **CLI Interface**: Interactive and command-line modes for easy use
+- **Web UI**: A fun, retro-themed web interface built with Streamlit.
 
-## 🚀 Quick Start
+## 🚀 Quick Start (Web UI)
 
-1. **Install dependencies**:
-   ```bash
-   uv add PyGithub google-generativeai requests
-   ```
+The easiest way to use the application is through the **CODE PORTRAIT ARCADE** web interface.
 
-2. **Set up API keys**:
-   ```bash
-   export GITHUB_TOKEN="your_github_token"
-   export GEMINI_API_KEY="your_gemini_api_key"
-   ```
+1.  **Set up API keys**:
+    ```bash
+    export GITHUB_TOKEN="your_github_token"
+    export GEMINI_API_KEY="your_gemini_api_key"
+    ```
 
-3. **Run the tool**:
-   ```bash
-   # Interactive mode (guided experience)
-   python cli.py
-   
-   # Analyze specific user (profile only)
-   python cli.py -u phunterlau -p
-   
-   # Generate single image for user
-   python cli.py -u phunterlau
-   
-   # Batch process multiple users
-   python cli.py -b user1 user2 user3
-   ```
+2.  **Navigate to the frontend directory**:
+    ```bash
+    cd frontend
+    ```
+
+3.  **Run the startup script**:
+    ```bash
+    python run_ui.py
+    ```
+    This script will automatically install the necessary dependencies and launch the application in your web browser.
 
 ## 🎨 Image Generation Features
 
@@ -147,25 +140,6 @@ The project follows a phased development approach:
 1. **Phase 1**: GitHub data foundation and AI-powered analysis
 2. **Phase 2**: Style guide implementation and prompt generation  
 3. **Phase 3**: CLI interface and user experience
-
-## 📝 Usage Examples
-
-```bash
-# Interactive mode - guided experience
-python cli.py
-
-# Quick profile analysis
-python cli.py -u octocat -p
-
-# Generate portrait prompt
-python cli.py -u torvalds
-
-# Batch processing
-python cli.py -b octocat torvalds gvanrossum
-
-# Force refresh cached profiles
-python cli.py -u phunterlau --force-refresh
-```
 
 ## 🎨 Image Generation
 
