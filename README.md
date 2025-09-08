@@ -2,6 +2,7 @@
 
 A Nano Banana Hackathon project that analyzes GitHub user profiles and generates artistic portrait prompts based on coding style, contributions, and technical focus areas.
 
+![alt text](images/20250907_215804_fa5e4303_phunterlau_character_fusion_0.png)
 ## 🎯 Features
 
 - **Multi-dimensional GitHub Analysis**: Language distribution, domain focus, contribution patterns, and commit timing
